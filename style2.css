@@ -1,0 +1,282 @@
+.navbar-collapse {
+    flex-basis: 100%;
+    
+    align-items: center;
+    flex-grow: 0.5;
+}
+nav.navbar{
+    background-color:gray;
+}
+
+.card1image{
+    width: 300px;
+    height: 250px;
+    }
+    .card{
+        color: whitesmoke;
+        background-color: brown; 
+    }
+    .form2{
+        width: 300px;
+        height: auto;  
+    }
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 40px;
+    background-color:black;
+    border-radius: 20px;
+}
+.instagram img{
+    width: 30px;
+    height: 30px;
+}
+.instagram p{
+    color: #fff;
+}
+.linkedin img{
+    width: 30px;
+    height: 30px;
+}
+.linkedin p{
+    color: #fff;
+}
+.whatsapp img {
+    width: 30px;
+    height: 30px;
+}
+.whatsapp p{
+    color: #fff;
+}
+.gmail img{
+    width: 30px;
+    height: 30px;
+}
+.gmail p{
+    color: #fff;
+}
+.twiter img{
+width: 30px;
+    height: 30px;
+}
+.twiter p{
+color:white ;
+}
+.contact{
+color: #fff;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;700;900&display=swap');
+body {
+     font-family: poppins;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: grey;
+    height: 50px;
+    align-items: center;}
+
+    .landing{
+width: 100%;
+height: 70vh;
+background: linear-gradient(rgba(24, 26, 24, 0.431),rgba(93, 97, 97, 0.477)), url(./e-learning\ 3.jpg);
+
+    }
+    .lanimg{
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        /* align-content: center; */
+        justify-content: end;
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+
+
+    }
+   
+
+.allform{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+form{
+    background-color:grey;
+    padding: 20px;
+    border-radius: 25px;
+    color: white;
+    margin-bottom: 50px;
+}
+label{
+    text-align: left;
+}
+
+.form2{
+    height: fit-content;
+}
+
+.form2 input{
+    padding: 12px 24px;
+    width: 80%;
+}
+button{
+    color: green;
+}
+h1{
+    color: black;
+}
+.allcards{
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80vh;
+    justify-content: space-around;
+    
+}
+@media (max-width:1277px) {
+  .allcards{
+    height: auto;
+  }  
+}
+.card{
+    background-color: goldenrod;
+    width: 300px;
+    height: 200px;
+    
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+
+.grid {
+    width: 100%;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+
+  .pub{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.738), rgba(0, 0, 0, 0.738)), url(./children.jpeg);
+    background-size: cover;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.539), rgba(0, 0, 0, 0.504) url(./children.jpeg)) ; */
+    display: flex;
+    align-items: center;
+  }
+  .pub h1{
+    font-size: 70px;
+    width: 70%;
+    color: white;
+  }
+  @media (max-width:900px) {
+    .pub h1{
+        font-size: 45px;
+    }
+    
+  }
+
+  .portfolio{
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding-top: 35px;
+    border-radius: 20px;  
+  }
+
+
+  .port-img1{
+    /* background-color: gray; */
+    background:  url(./ife\ and\ modakeke.jpg);
+    background-size: cover;
+    background-position: center;
+
+    /* object-fit: contain; */
+
+    width: 400px;
+    height: 60vh;
+    border-radius: 30px;
+   
+  }
+
+  
+
+  .port-img2{
+    /* background-color: blue; */
+    width: 650px;
+    height: 60vh;
+    border-radius: 30px;
+    background:  url(./My\ compl.\ card.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    /* object-fit: cover; */
+  }
+   
+ 
+
+  .port-img3{
+    /* background-color: green; */
+    width: 400px;
+    height: 60vh;
+    border-radius: 30px;
+    background:  url(./modakeke.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  
+
+  .port-img1 h3{
+    color: #fff;
+    padding-left: 15px;
+  }
+
+  .port-img3 h3{
+    color: black;
+    padding-left: 15px;
+  }
+
+  .pub{
+    color: #fff;
+  }
+
+ @media (max-width: 1290px) {
+    /* .port-img1, .port-img2, .port-img3{
+        width: 80%;
+    } */
+ }
